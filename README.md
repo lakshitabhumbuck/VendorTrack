@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Vendor Cab and Driver Onboarding System (VCDOS) - MERN Stack
 
 A comprehensive multi-level vendor management system for fleet operations, vehicle onboarding, and driver management with hierarchical access control.
@@ -47,3 +48,10 @@ npm start
 ## Folder Details
 - `client/` — React app (UI, state, routing)
 - `server/` — Express API, MongoDB models, authentication 
+
+
+# Vendor Cab and Driver Onboarding System (VCDOS) - MERN Stack
+
+A comprehensive multi-level vendor management system...
+
+
