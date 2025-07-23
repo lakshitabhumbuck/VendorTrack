@@ -1,57 +1,62 @@
-<<<<<<< HEAD
-# Vendor Cab and Driver Onboarding System (VCDOS) - MERN Stack
+# Vendor Cab and Driver Onboarding System
 
 A comprehensive multi-level vendor management system for fleet operations, vehicle onboarding, and driver management with hierarchical access control.
 
-## Tech Stack
-- **Frontend:** React JS (JavaScript)
-- **Backend:** Node.js, Express
-- **Database:** MongoDB
 
-## Project Structure
-```
-client/   # React frontend
-server/   # Express backend
-```
+### Demo Credentials
 
-## Getting Started
+Access different admin levels using these credentials:
 
-### 1. Install dependencies
-```
-cd client && npm install
-cd ../server && npm install
-```
+- **Super Admin**: super@vendor.com
+- **Regional Admin**: north@vendor.com
+- **City Admin**: citya@vendor.com
+- **Local Admin**: local@vendor.com
 
-### 2. Start the backend
-```
-cd server
-npm run dev
-```
-
-### 3. Start the frontend
-```
-cd client
-npm start
-```
-
----
-
-## Features
-- Multi-level vendor hierarchy (Super, Regional, City, Local)
-- Role-based dashboards
-- Vehicle and driver management
-- Authentication and protected routes
-- RESTful API
-
----
-
-## Folder Details
-- `client/` — React app (UI, state, routing)
-- `server/` — Express API, MongoDB models, authentication 
+Password: Any 6+ characters
 
 
-# Vendor Cab and Driver Onboarding System (VCDOS) - MERN Stack
+## 🚀 Features
 
-A comprehensive multi-level vendor management system...
+### 1. Multi-Level Vendor Hierarchy
+- Flexible N-level vendor hierarchy (Super → Regional → City → Local)
+- Role-based access management
+- Parent-child relationship management
+- Customizable permissions per vendor level
+
+### 2. Super Vendor Dashboard
+- Complete vendor network overview
+- Real-time fleet status monitoring
+- Document verification management
+- Performance analytics and reporting
+
+### 3. Vehicle Management
+- Vehicle onboarding and registration
+- Document tracking and verification
+- Compliance monitoring
+- Vehicle status management (active/inactive)
+
+### 4. Driver Management
+- Driver onboarding and verification
+- Document upload and tracking
+- Vehicle assignment
+- Performance monitoring
+
+### 5. Access Control
+- Granular permission management
+- Role-based access control
+- Delegation capabilities
+- Activity audit trails
+
+### 6. Dashboard Views
+- Super Vendor Dashboard
+- Regional Dashboard
+- City Dashboard
+- Local Dashboard
+
+### 7. Management Interfaces
+- Vehicle Management
+- Driver Management
+- Document Verification
+- User Management
 
 
